@@ -25,7 +25,7 @@ BEGIN
         [Column2],
         [Column3], 
         GETDATE(),
-        'DEL'
+        'DELe'
     FROM
         deleted d;
 END

@@ -184,7 +184,7 @@
       <SubType>Code</SubType>
     </Build>
     <Build Include="dbo\Tables\Table1_Transaction.sql" />
-    <Build Include="Schema Objects\Schemas\dbo\Tables\Triggers\trg_Table1_audit.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\Triggers\trg_Table1_audit.trigger.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug.publish.xml" />
