@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:Microsoft.VisualStudio.Data.Schema.Permissions" Version="1.0">
+
+  <PermissionStatement Action ="GRANT">
+    <Permission>CONNECT</Permission>
+    <Grantee>dbo</Grantee>
+    <Granter>dbo</Granter>
+  </PermissionStatement>
+
+  <!--  Stored Procedure Permissions -->
+  <PermissionStatement Action ="GRANT">
+    <Permission>EXECUTE</Permission>
+    <Grantee>sa</Grantee>
+    <Object Name ="usp_ProcedureOne" Schema ="dbo" Type ="OBJECT"/>
+    <Granter>dbo</Granter>
+  </PermissionStatement>
+  
+  
   <!--  The examples below are provided to illustrate how permissions 
         are defined in the project system for Databases, Objects, 
         and Columns.
