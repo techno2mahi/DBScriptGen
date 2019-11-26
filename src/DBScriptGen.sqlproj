@@ -160,6 +160,8 @@
     <Folder Include="Schema Objects\Database Level Objects\Storage\Full Text Catalogs\" />
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Functions\" />
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Schemes\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
@@ -181,6 +183,7 @@
     <Build Include="Schema Objects\Schemas\dbo\Tables\Table2.table.sql">
       <SubType>Code</SubType>
     </Build>
+    <Build Include="dbo\Tables\Table1_Transaction.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug.publish.xml" />
