@@ -192,6 +192,10 @@
   <ItemGroup>
     <None Include="Debug.publish.xml" />
     <None Include="Release.publish.xml" />
+    <None Include="Properties\Database.sqlcmdvars" />
+    <None Include="Properties\Database.sqldeployment" />
+    <None Include="Properties\Database.sqlpermissions" />
+    <None Include="Properties\Database.sqlsettings" />
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="Scripts\Pre-Deployment\Script.PreDeployment.sql" />
