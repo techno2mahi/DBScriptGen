@@ -16,7 +16,7 @@ BEGIN
         [Column2],
         [Column3], 
         GETDATE(),
-        'INS'
+        'INST'
     FROM
         inserted i
     UNION ALL
